@@ -4,4 +4,26 @@ page-home {
         background: rgb(255, 255, 152);
     }
 
+
+    .me {
+        float:left;
+        margin: 5px;
+    }
+
+
+    .me::before{
+
+        box-shadow: 1px 5px 5px 1px gray;
+    }
+
+    .you{
+        float: right;
+        margin: 5px;
+    }
+
+    .you::before{
+        
+        box-shadow: 1px 5px 5px 1px gray;
+    }
+
 }

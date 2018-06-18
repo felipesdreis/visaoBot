@@ -7,7 +7,7 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  
+  messages: any[] = [];
 
   constructor(public navCtrl: NavController) {
 
@@ -16,3 +16,6 @@ export class HomePage {
  
 
 }
+
+
+
